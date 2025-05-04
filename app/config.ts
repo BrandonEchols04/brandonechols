@@ -8,6 +8,7 @@ export const metaData = {
 };
 
 export const socialLinks = {
+  youtube: "youtube.com/@brandonecholsmusic",
   twitter: "https://x.com/1tssirius",
   github: "https://github.com/1msirius/Nextfolio",
   instagram: "https://www.instagram.com/",
