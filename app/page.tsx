@@ -23,8 +23,10 @@ export default function Page() {
         <iframe
           style={{
             width: "100%",
-            height: "220px",
-            border: "1px solid #ccc"
+            height: "180px",
+            border: "1px solid #ccc",
+            borderRadius: "50px",
+            backgroundColor: "transparent",
           }}
           src="https://buttondown.com/brandonechols?as_embed=true"
         />
