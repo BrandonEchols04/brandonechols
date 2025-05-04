@@ -20,6 +20,9 @@ export default function Page() {
         <p>
           Under the <b>Photos</b> tab, you can peruse a gallery of photographs that I have captured. The newest images will appear near the top.
         </p>
+        <h3 style={{ textAlign: 'center' }}>
+          Subscribe to the newsletter, and get notified when new articles are posted:
+        </h3>
         <iframe
           style={{
             width: "100%",
