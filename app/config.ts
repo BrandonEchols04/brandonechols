@@ -1,7 +1,7 @@
 export const metaData = {
   baseUrl: "https://brandonechols.vercel.app/",
   title: "Notes from the Wild Mind",
-  name: "Brandon Echols",
+  name: "Notes from the Wild Mind",
   ogImage: "/opengraph-image.png",
   description:
     "The site of Brandon Echols, Notes from the Wild Mind compiles reflections, poems, personal projects, and visual snippets all in one place.",
