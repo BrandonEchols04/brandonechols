@@ -1,17 +1,13 @@
 export const metaData = {
   baseUrl: "https://brandonechols.vercel.app/",
-  title: "Brandon Echols",
+  title: "Notes from the Wild Mind",
   name: "Brandon Echols",
   ogImage: "/opengraph-image.png",
   description:
-    "A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.",
+    "The site of Brandon Echols, Notes from the Wild Mind compiles reflections, poems, personal projects, and visual snippets all in one place.",
 };
 
 export const socialLinks = {
-  youtube: "youtube.com/@brandonecholsmusic",
-  twitter: "https://x.com/1tssirius",
-  github: "https://github.com/1msirius/Nextfolio",
-  instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
-  email: "mailto:example@gmail.com",
+  github: "https://github.com/BrandonEchols04",
+  email: "mailto:brandonechols04@gmail.com",
 };
