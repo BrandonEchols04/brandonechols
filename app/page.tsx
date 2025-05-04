@@ -20,30 +20,16 @@ export default function Page() {
         <p>
           Under the <b>Photos</b> tab, you can peruse a gallery of photographs that I have captured. The newest images will appear near the top.
         </p>
-        <form
-          action="https://buttondown.com/api/emails/embed-subscribe/brandonechols"
-          method="post"
-          target="popupwindow"
-          onSubmit={() => {
-            window.open('https://buttondown.com/brandonechols', 'popupwindow');
+        <iframe
+          style={{
+            width: "100%",
+            height: "180px",
+            border: "1px solid #ccc",
+            borderRadius: "50px",
+            backgroundColor: "transparent",
           }}
-          className="embeddable-buttondown-form"
-        >
-          <label htmlFor="bd-email">Enter your email</label>
-          <input type="email" name="email" id="bd-email" required />
-
-          <input type="submit" value="Subscribe" />
-
-          <p>
-            <a
-              href="https://buttondown.com/refer/brandonechols"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Powered by Buttondown.
-            </a>
-          </p>
-        </form>
+          src="https://buttondown.com/brandonechols?as_embed=true"
+        />
       </div>
     </section>
   );
