@@ -20,7 +20,6 @@ export default function Page() {
         <p>
           Under the <b>Photos</b> tab, you can peruse a gallery of photographs that I have captured. The newest images will appear near the top.
         </p>
-        <form action="https://buttondown.email/api/emails/embed-subscribe/brandonechols" method="post" target="_self"> <label>Enter your email</label> <div> <input placeholder="Email address"> </input> <input id="bd-subscribe" type="submit" value="Subscribe"> </input> </div> </form>
       </div>
     </section>
   );
