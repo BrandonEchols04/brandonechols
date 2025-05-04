@@ -15,11 +15,19 @@ export default function Page() {
           At the top of the page, you'll see three tabs. The <b>Blog</b> tab is where you'll find all of my random thoughts and musings.
         </p>
         <p>
-          In <b>Projects</b>, you'll find links to projects that I'm either working on or have already completed (ha! like I'll ever <i>finish</i> anything...).
+          In <b>Projects</b>, you'll find links to projects that I'm either working on or have already completed (ha! like I'll ever <i>finish</i> anything).
         </p>
         <p>
           Under the <b>Photos</b> tab, you can peruse a gallery of photographs that I have captured. The newest images will appear near the top.
         </p>
+        <iframe
+          style={{
+            width: "100%",
+            height: "220px",
+            border: "1px solid #ccc"
+          }}
+          src="https://buttondown.com/brandonechols?as_embed=true"
+        />
       </div>
     </section>
   );
