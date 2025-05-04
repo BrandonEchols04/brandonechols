@@ -5,49 +5,22 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium">
-        Portfolio template!
+        Welcome!
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
+          Hi, I'm Brandon Echols and this is <i>Notes from the Wild Mind</i>. That is, you'll find a bunch of notes from <b>my</b> wild mind here.
         </p>
         <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
+          At the top of the page, you'll see three tabs. The <b>Blog</b> tab is where you'll find all of my random thoughts and musings.
         </p>
         <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
+          In <b>Projects</b>, you'll find links to projects that I'm either working on or have already completed (ha! like I'll ever <i>finish</i> anything...).
         </p>
         <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
+          Under the <b>Photos</b> tab, you can peruse a gallery of photographs that I have captured. The newest images will appear near the top.
         </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
+        <form action="https://buttondown.email/api/emails/embed-subscribe/brandonechols" method="post" target="_self"> <label>Enter your email</label> <div> <input placeholder="Email address"> </input> <input id="bd-subscribe" type="submit" value="Subscribe"> </input> </div> </form>
       </div>
     </section>
   );
