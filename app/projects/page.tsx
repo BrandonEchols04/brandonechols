@@ -10,7 +10,9 @@ export const metadata: Metadata = {
 export default function Projects() {
   return (
     <section>
-      <h1 className="mb-8 text-2xl font-medium">Projects from the Wild Mind</h1>
+      <h1 className="mb-8 text-2xl font-medium">
+        Projects <span className="text-base font-normal">from the Wild Mind</span>
+      </h1>
       <div>
         {projects.map((project, index) => (
           <Link

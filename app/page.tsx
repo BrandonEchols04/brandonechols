@@ -9,7 +9,7 @@ export default function Page() {
       </h1>
       <div className="prose prose-neutral dark:prose-invert">
          <p>
-           Hi, I'm Brandon Echols and this is <i>Notes from the Wild Mind</i>. That is, you'll find a bunch of sentiments from <i>my</i> <b>wild</b> mind here.
+           Hi, I'm Brandon Echols and this is <i>The Wild Mind</i>. That is, you'll find a bunch of sentiments from <i>my</i> <b>wild</b> mind here.
          </p>
          <p>
            At the top of the page, you'll see three tabs. The <b>Blog</b> tab is where you'll find all of my random thoughts and musings.
