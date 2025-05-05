@@ -23,15 +23,42 @@ export default function Page() {
         <h4 style={{ textAlign: 'center' }}>
           Subscribe to the newsletter, and get notified when new articles are posted:
         </h4>
-        <iframe
-          style={{
-            width: "100%",
-            height: "180px",
-            borderRadius: "50px",
-            backgroundColor: "#363636",
-          }}
-          src="https://buttondown.com/brandonechols?as_embed=true"
-        />
+        <form
+          action="https://buttondown.email/api/emails/embed-subscribe/brandonechols"
+          method="post"
+          target="popupwindow"
+          onSubmit={() => window.open('https://buttondown.email/brandonechols', 'popupwindow')}
+        >
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email (you@example.com)"
+            required
+            style={{
+              padding: '0.75rem 1rem',
+              borderRadius: '1rem',
+              backgroundColor: '#2a2a2a',
+              border: 'none',
+              color: 'white',
+              marginBottom: '0.5rem',
+              width: '100%',
+            }}
+          />
+          <input
+            type="submit"
+            value="Subscribe"
+            style={{
+              backgroundColor: '#a5d6a7',
+              color: 'black',
+              border: 'none',
+              borderRadius: '1rem',
+              padding: '0.75rem',
+              cursor: 'pointer',
+              fontWeight: 'bold',
+              width: '100%',
+            }}
+          />
+</form>
       </div>
     </section>
   );
