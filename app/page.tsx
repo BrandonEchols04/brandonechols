@@ -28,37 +28,21 @@ export default function Page() {
           method="post"
           target="popupwindow"
           onSubmit={() => window.open('https://buttondown.email/brandonechols', 'popupwindow')}
+          className="bg-white dark:bg-zinc-900 p-6 rounded-2xl flex flex-col gap-4 shadow-lg"
         >
           <input
             type="email"
             name="email"
             placeholder="Your email (you@example.com)"
             required
-            style={{
-              padding: '0.75rem 1rem',
-              borderRadius: '1rem',
-              backgroundColor: '#2a2a2a',
-              border: 'none',
-              color: 'white',
-              marginBottom: '0.5rem',
-              width: '100%',
-            }}
+            className="px-4 py-3 rounded-xl bg-zinc-100 dark:bg-zinc-800 text-black dark:text-white placeholder:text-zinc-500 dark:placeholder:text-zinc-400 border-none outline-none w-full"
           />
           <input
             type="submit"
             value="Subscribe"
-            style={{
-              backgroundColor: '#a5d6a7',
-              color: 'black',
-              border: 'none',
-              borderRadius: '1rem',
-              padding: '0.75rem',
-              cursor: 'pointer',
-              fontWeight: 'bold',
-              width: '100%',
-            }}
+            className="bg-green-200 hover:bg-green-300 text-black font-bold py-3 rounded-xl cursor-pointer transition-all w-full"
           />
-</form>
+        </form>
       </div>
     </section>
   );
