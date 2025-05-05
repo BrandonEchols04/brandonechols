@@ -19,7 +19,7 @@ export default function Photos() {
           { src: "/photos/photo11.jpg", alt: "Mushroom close up" },
           { src: "/photos/photo10.jpg", alt: "Mini forest path" },
           { src: "/photos/photo9.jpg", alt: "Layered foliage, trees, and sky" },
-          { src: "/photos/photo8.jpg", alt: "Teenager biking on forest road" },
+          { src: "/photos/photo8.jpg", alt: "Teenager biking on a forest road" },
           { src: "/photos/photo7.jpg", alt: "Sunset and tree silhouette" },
           { src: "/photos/photo6.jpg", alt: "Medford Oregon Temple" },
           { src: "/photos/photo5.jpg", alt: "Cloudy sky" },
