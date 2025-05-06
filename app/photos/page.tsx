@@ -11,7 +11,7 @@ export default function Photos() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium">
-        Photos <span className="text-base font-normal">from the Wild Mind</span>
+        Photos <span className="text-base font-normal">from The Wild Mind</span>
       </h1>
       <ImageGrid
         columns={2}

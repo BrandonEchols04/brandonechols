@@ -7,18 +7,6 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Poetry Corpus",
-    year: 2025,
-    description: "All my poetry",
-    url: "https://hahathisdoesntexist.yet",
-  },
-  {
-    title: "Discography",
-    year: 2025,
-    description: "All my music",
-    url: "https://hahathisdoesntexist.yet",
-  },
-  {
     title: "Gospel Encyclopedia",
     year: 2025,
     description: "WIP encyclopedia",

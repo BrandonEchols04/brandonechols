@@ -12,7 +12,7 @@ export default function BlogPosts() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-medium">
-        Blog <span className="text-base font-normal">from the Wild Mind</span>
+        Blog <span className="text-base font-normal">from The Wild Mind</span>
       </h1>
       <div>
         {allBlogs
