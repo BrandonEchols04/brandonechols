@@ -5,7 +5,7 @@ export interface Project {
   url: string;
 }
 
-// Format dates like 'Jan 1, 2025'
+// Format dates like 'Jan 11, 2025'
 export const projects: Project[] = [
   {
     title: "Gospel Encyclopedia",
