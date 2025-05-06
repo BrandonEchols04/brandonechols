@@ -5,11 +5,12 @@ export interface Project {
   url: string;
 }
 
+// Format dates like 'Jan 1, 2025'
 export const projects: Project[] = [
   {
     title: "Gospel Encyclopedia",
     year: 2025,
-    description: "WIP encyclopedia",
+    description: "Last updated May 5, 2025",
     url: "https://docs.google.com/document/d/18vfrlADPLz5144r5mVEEEeZdcxdNeEk2/",
   },
   {
