@@ -17,6 +17,6 @@ export const projects: Project[] = [
     title: "The positive impacts of digital resources on reading and...",
     year: 2025,
     description: "Research paper",
-    url: "https://docs.google.com/document/d/1GqTKUCUpkw7Y5pxkoZif_ji5E_lHSqi6/",
+    url: "https://osf.io/preprints/osf/2q5zg_v1",
   },
 ];
